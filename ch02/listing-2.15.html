@@ -1,14 +1,79 @@
 <!doctype html>
+<html lang="en">
+
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wombat Coffee Roasters</title>
   <style>
-    /* styles will be added in subsequent listings */
+    :root {
+      box-sizing: border-box;
+      font-size: clamp(0.9rem, 0.6rem + 0.5svw, 2.1rem);
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    *+* {
+      margin-top: 0.55em;
+    }
+
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .panel {
+      font-size: 1rem;
+      padding: 1em;
+      border: 1px solid #999;
+      border-radius: 0.5em;
+      width: 80%;
+    }
+
+    .panel>h2 {
+      margin-top: 0;
+      font-size: 0.8em;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .panel.large {
+      font-size: 1.2em;
+      width: 80%;
+    }
   </style>
 </head>
 
 <body>
-  <p class="about-us">
-    We have built partnerships with small farms around the world to hand-select
-    beans at the peak of season. We then carefully roast in small batches to
-    maximize their potential.
-  </p>
+  <div class="panel">
+    <h2>Single-origin</h2>
+    <div class="body">
+      We have built partnerships with small farms around the world to
+      hand-select beans at the peak of season. We then carefully roast in
+      <a href="/batch-size.html">small batches</a> to maximize their potential.
+    </div>
+  </div>
+  <div class="panel large">
+    <h2>Single-origin</h2>
+    <div class="body">
+      We have built partnerships with small farms around the world to
+      hand-select beans at the peak of season. We then carefully roast in
+      <a href="/batch-size.html">small batches</a> to maximize their potential.
+    </div>
+  </div>
+  <div class="panel">
+    <h2>About Us</h2>
+    <p class="about-us">
+      We have built partnerships with small farms around the world to
+      hand-select beans at the peak of season. We then carefully roast in
+      small batches to maximize their potential.
+    </p>
+  </div>
 </body>
+
+</html>
