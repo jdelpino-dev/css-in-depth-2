@@ -83,7 +83,6 @@ body {
 }
 
 .login-form button {
-  margin-block-start: unset;
   border: 1px solid #cc6b5a;
   background-color: white;
   padding: 0.5em 1em;
