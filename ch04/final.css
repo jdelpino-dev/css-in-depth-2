@@ -67,3 +67,31 @@ body {
 .column-sidebar > .tile {
   flex: 1 1 0%; /* Grow – Shrink – Basis */
 }
+
+.login-form h3 {
+  margin: 0;
+  font-size: 1.009em;
+  font-weight: bold;
+  text-align: end;
+  text-transform: uppercase;
+}
+
+.login-form input:not([type="checkbox"]):not([type="radio"]) {
+  display: block;
+  inline-size: clamp(10em, 100%, 25em);
+  margin-block-start: 0.3em;
+}
+
+.login-form button {
+  margin-block-start: unset;
+  border: 1px solid #cc6b5a;
+  background-color: white;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.login-form button:hover {
+  background-color: #cc6b5a;
+  color: white;
+}
