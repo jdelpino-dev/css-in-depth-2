@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coffee Rosters</title>
+  <title>Ink</title>
   <style>
     *,
     ::before,
@@ -29,11 +29,13 @@
       display: grid;
       grid-template-areas:
         "title title"
-        "nav   nav"
+        "nav nav"
         "main  aside1"
+        "main  aside2"
+        "main  aside2"
         "main  aside2";
       grid-template-columns: 2fr 1fr;
-      grid-template-rows: repeat(4, auto);
+      grid-template-rows: repeat(6, auto);
       gap: var(--gap-size);
       max-inline-size: 1080px;
       margin-inline: auto;
