@@ -28,7 +28,7 @@
     .container {
       display: grid;
       grid-template-columns: 2fr 1fr;
-      grid-template-rows: repeat(6, auto);
+      grid-template-rows: repeat(10, auto);
       gap: var(--gap-size);
       max-inline-size: 1080px;
       margin-inline: auto;
@@ -46,7 +46,7 @@
 
     .main {
       grid-column: 1 / 2;
-      grid-row: 3 / 5;
+      grid-row: 3 / 11;
     }
 
     .sidebar-top {
@@ -56,7 +56,7 @@
 
     .sidebar-bottom {
       grid-column: 2 / 3;
-      grid-row: 4 / 5;
+      grid-row: 4 / 11;
     }
 
     .tile {
@@ -184,6 +184,9 @@
         </p>
         <button type="submit">Login</button>
       </form>
+      <div>
+        <p>Don't have an account? <a href="/signup">Sign up</a></p>
+      </div>
     </div>
     <div class="sidebar-bottom tile centered stack">
       <small>Starting at</small>
