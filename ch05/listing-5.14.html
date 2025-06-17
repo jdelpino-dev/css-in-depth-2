@@ -28,8 +28,10 @@
     .card {
       display: grid;
       gap: 0;
-      grid-template-rows: max-content auto auto max-content;
-      /* grid-template-rows: auto auto 1fr auto; */
+      /* grid-template-rows: max-content auto auto max-content; */
+      grid-template-rows: auto auto 1fr auto;
+      grid-template-rows: subgrid;
+      grid-row: span 4;
       padding: 1rem;
       border-radius: 0.5rem;
       background-color: #fff;
