@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wombat Coffee</title>
   <style>
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: Helvetica, Arial, sans-serif;
       min-height: 200vh;
@@ -100,7 +106,8 @@
     }
 
     .dropdown-toggle {
-      padding: 0.5em 1.5em;
+      padding-inline: 1.5em;
+      block-size: 2.3em;
       border: 1px solid #ccc;
       background-color: #eee;
       border-radius: 0;
@@ -110,7 +117,7 @@
       display: none;
       position: absolute;
       left: 0;
-      top: 2.1em;
+      top: 2.2em;
       inline-size: max-content;
       min-inline-size: 100%;
       background-color: #eee;
