@@ -28,9 +28,8 @@
     .card {
       display: grid;
       gap: 0;
-      grid-template-rows: max-content auto max-content;
-      grid-template-rows: subgrid;
-      grid-row: span 3;
+      grid-template-rows: max-content auto auto max-content;
+      /* grid-template-rows: auto auto 1fr auto; */
       padding: 1rem;
       border-radius: 0.5rem;
       background-color: #fff;
@@ -54,6 +53,7 @@
   <div class="author-bios">
     <div class="card">
       <h3>Sir Arthur Ignatius Conan Doyle</h3>
+      <div>Born on...</div>
       <div>
         <p>
           A British writer and physician who created the fictional detective
@@ -64,7 +64,7 @@
     </div>
     <div class="card">
       <h3>Mark Twain</h3>
-      <div>Bo</div>
+      <div>Born on...</div>
       <div>
         <p>
           An American author famous for <i>The Adventures of Tom Sawyer</i> and
@@ -76,6 +76,7 @@
     </div>
     <div class="card">
       <h3>Homer</h3>
+      <div>Born on...</div>
       <div>
         <p>
           Author of the Greek epic poems <i>The Iliad</i> and
@@ -86,6 +87,7 @@
     </div>
     <div class="card">
       <h3>Hanni Ossott</h3>
+      <div>Born on...</div>
       <div>
         <p>
           Venezuelan poet, translator, and essayist. She is known for her
@@ -96,6 +98,7 @@
     </div>
     <div class="card">
       <h3>Gabriel García Márquez</h3>
+      <div>Born on...</div>
       <div>
         <p>
           A Colombian novelist and Nobel Prize winner, known for his works
