@@ -19,9 +19,9 @@
 
     .author-bios {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
       gap: 1em;
-      max-inline-size: 800px;
+      max-inline-size: 50rem;
       margin-inline: auto;
     }
 
@@ -64,6 +64,7 @@
     </div>
     <div class="card">
       <h3>Mark Twain</h3>
+      <div>Bo</div>
       <div>
         <p>
           An American author famous for <i>The Adventures of Tom Sawyer</i> and
@@ -82,6 +83,26 @@
         </p>
       </div>
       <div class="read-more"><a href="/homer"> Read more </a></div>
+    </div>
+    <div class="card">
+      <h3>Hanni Ossott</h3>
+      <div>
+        <p>
+          Venezuelan poet, translator, and essayist. She is known for her
+          contributions to contemporary Latin American literature.
+        </p>
+      </div>
+      <div class="read-more"><a href="/hanni-ossott"> Read more </a></div>
+    </div>
+    <div class="card">
+      <h3>Gabriel García Márquez</h3>
+      <div>
+        <p>
+          A Colombian novelist and Nobel Prize winner, known for his works
+          including <i>One Hundred Years of Solitude</i> and <i>Love in the Time of Cholera</i>.
+        </p>
+      </div>
+      <div class="read-more"><a href="/garcia-marquez"> Read more </a></div>
     </div>
   </div>
 </body>
