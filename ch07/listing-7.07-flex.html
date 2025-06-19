@@ -98,7 +98,6 @@
 
     /* --- MODIFIED: Step 3 --- */
     .menu {
-      position: relative;
       flex-shrink: 0;
       /* Prevents the menu button from being squished */
     }
@@ -130,9 +129,8 @@
     .menu-dropdown {
       display: none;
       position: absolute;
-      /* MODIFIED: More robust positioning */
       top: 100%;
-      right: 0;
+      left: 0;
       margin-top: 0.5em;
       /* Optional: adds space */
       z-index: 10;
